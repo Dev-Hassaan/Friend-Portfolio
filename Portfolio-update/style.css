@@ -18,6 +18,7 @@ body {
 {
     height: 100vh;
     width: 100%;
+    overflow: hidden;
     position: relative;
     background: #000;
     display: flex;
@@ -205,6 +206,7 @@ section.pen
 {
     width: 100%;
     max-width: 600px;
+    margin: 2%;
 }
 .content .text h2
 {
@@ -245,6 +247,7 @@ section.pen
 .slider
 {
     position: relative;
+    width: 100%;
 }
 .slider .slides
 {
@@ -338,6 +341,7 @@ section.pen
     grid-gap: 20px;
     box-sizing: border-box;
 }
+
 .column 
 {
   width: 100%;
@@ -689,7 +693,7 @@ footer .wave#wave4
     .slider .slides img 
     {
         width: 100%;
-        max-width: 420px;
+        /*max-width: 420px;*/
     }
     .footer
     {
@@ -743,4 +747,5 @@ footer .wave#wave4
     {
         margin-top: 40px;
     }
+    
 }
